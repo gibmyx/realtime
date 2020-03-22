@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fff7cc40-cb62-4e51-a6a3-b99c599e2f7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Comments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/char.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Comments.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Comments.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584834445625</updated>
       <workItem from="1584834446948" duration="6144000" />
-      <workItem from="1584841629207" duration="1494000" />
+      <workItem from="1584841629207" duration="5396000" />
     </task>
     <servers />
   </component>
@@ -167,5 +167,13 @@
       <screen x="0" y="27" width="1920" height="950" />
     </state>
     <state x="743" y="288" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.950/1920.0.1280.1024@0.27.1920.950" timestamp="1584835514374" />
+    <state x="755" y="455" width="399" height="156" key="NewPhpFileDialog" timestamp="1584844401346">
+      <screen x="0" y="27" width="1920" height="950" />
+    </state>
+    <state x="755" y="455" width="399" height="156" key="NewPhpFileDialog/0.27.1920.950/1920.0.1280.1024@0.27.1920.950" timestamp="1584844401346" />
+    <state x="623" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1584844507081">
+      <screen x="0" y="27" width="1920" height="950" />
+    </state>
+    <state x="623" y="247" width="672" height="678" key="search.everywhere.popup/0.27.1920.950/1920.0.1280.1024@0.27.1920.950" timestamp="1584844507081" />
   </component>
 </project>

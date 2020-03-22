@@ -46,7 +46,7 @@
         props: ['add_comment_url', 'get_comments_url', 'post_id'],
         methods: {
             submit(){
-                Vue.$http.post(this.add_comment_url, {'comment': this.comment}).then((response) => {
+                Vue.http.post(this.add_comment_url, {'comment': this.comment}).then((response) => {
                     this.comment = '';
                 });
             }
@@ -62,7 +62,7 @@
             el.scrollTop = el.scrollHeight;
         },
         mounted(){
-            Vue.$http.get(this.get_comments_url).then((response) => {
+            Vue.http.get(this.get_comments_url).then((response) => {
                _.forEach(response.data, (comment) => {
                    this.comments.push({
                        comment: comment.comment,
