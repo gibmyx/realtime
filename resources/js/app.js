@@ -19,7 +19,16 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
+
+Vue.http.interceptors.push((request, next) => {
+    request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
+    next();
+});
+
+
+Vue.component('comments-box', require('./components/Comments.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
