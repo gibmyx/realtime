@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fff7cc40-cb62-4e51-a6a3-b99c599e2f7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/realtime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realtime.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Comments.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Comments.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/char.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/chat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="fff7cc40-cb62-4e51-a6a3-b99c599e2f7d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +153,7 @@
       <workItem from="1584841629207" duration="5527000" />
       <workItem from="1584847485065" duration="1582000" />
       <workItem from="1584881736777" duration="15682000" />
-      <workItem from="1584920020042" duration="4901000" />
+      <workItem from="1584920020042" duration="5515000" />
     </task>
     <servers />
   </component>
