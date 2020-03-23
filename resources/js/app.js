@@ -23,10 +23,18 @@ import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
 Vue.http.interceptors.push((request, next) => {
-    request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
+    request.headers.set('X-CSRF-TOKEN', document.head.querySelector('meta[name="csrf-token"]').content);
     next();
 });
-
+//
+// Vue.http.interceptors.push((request, next) => {
+//     request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
+//     next();
+// });
+// Vue.http.interceptors.push(function (request, next) {
+//     request.headers['X-CSRF-TOKEN'] = document.head.querySelector('meta[name="csrf-token"]').content;
+//     next();
+// });
 
 Vue.component('comments-box', require('./components/Comments.vue').default);
 

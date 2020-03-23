@@ -12,7 +12,7 @@
         <comments-box
             get_comments_url="{{route('comments.list', $post->id)}}"
             add_comment_url="{{route('comments.create', $post->id)}}"
-            post_id="{{$post_id}}"
+            post_id="{{$post->id}}"
         ></comments-box>
     </div>
 @endsection
