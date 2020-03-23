@@ -7,7 +7,7 @@
                         <span class="glyphicon glyphicon-comment"></span> Chat
                     </div>
                     <div class="panel-body">
-                        <ul class="chat" id="chatWindow" style="height: 20px; overflow-y: scroll">
+                        <ul class="chat" id="chatWindow" style="height: 500px; width: 600px; overflow-y: scroll">
                             <li v-for="comment in comments" class="left clearfix" style="list-style: none">
                                 <div class="chat-body clearfix">
                                     <div class="header">
@@ -65,7 +65,7 @@
             Vue.http.get(this.get_comments_url).then((response) => {
                _.forEach(response.data, (comment) => {
                    this.comments.push({
-                       comment: comment.comment,
+                       comment: comment.coment,
                        user: comment.user.name
                    });
                })
@@ -74,8 +74,8 @@
             window.Echo.private(`comments.${this.post_id}`)
             .listen('FireComment', (e) => {
                e.comment.user = e.user.name;
-               this.comment.push({
-                   comment: e.comment.comment,
+               this.comments.push({
+                   comment: e.comment.coment,
                    user: e.user.name
                });
             });

@@ -23,8 +23,8 @@ Route::group(['prefix' => 'pusher', 'middleware' => ['auth']], function ()
 {
     Route::post('posts/{id}', function($id, \Illuminate\Http\Request $request){
         $comment = new \App\Comment([
-            'comment' => $request->input('comment'),
-            'user' => auth()->user()->id,
+            'coment' => $request->input('comment'),
+            'user_id' => auth()->user()->id,
             'post_id' => $id
         ]);
 
